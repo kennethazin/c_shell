@@ -18,19 +18,26 @@
 The following commands are supported by myshell:
 
 Change current working directory
-- `cd(char *directory)`    
+- `cd(char *directory)`
+
 Clear the Screen
 - `clr()`
+
 List contents of a directory
 - `dir(char *directory)`
+
 Print a string to stdout       
 - `echo(char *string)`
+
 Show manual
 - `help()`
+
 Pause shell until the user presses Enter.
 - `pause()`
+
 Print environment variables.
 - `env()`
+
 Exit the shell.
 `quit()`
 
