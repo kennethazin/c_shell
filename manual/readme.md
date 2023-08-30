@@ -1,39 +1,39 @@
-# myshell                 USER MANUAL
+myshell                 USER MANUAL
 
-### NAME
+NAME
     myshell
 
-### SYNOPSIS
+SYNOPSIS
     myshell [command_string | file]
 
-### DESCRIPTION
+DESCRIPTION
     A user friendly command interpreter used to run various commands and programs from standard input or from a file.
 
-### USAGE
+USAGE
     Invoke myshell without any arguments to run the program.
     Once shell is invoked, enter commands into prompt for execution.
 
 
-### SHELL COMMANDS
-The following commands are supported by myshell:
-`cd(char *directory)`    
-- Change current working directory.
-`clr()`
-- Clear the screen.
-`dir(char *directory)`
-- List contents of a directory.
-`echo(char *string)`
-- Print a string to stdout.           
-`help()`
-- Show manual.
-`pause()`
-- Pause shell until the user presses Enter.
-`env()`
-- Print environment variables.
-`quit()`
-- Exit the shell.
+SHELL COMMANDS
+    The following commands are supported by myshell:
+        cd(char *directory)    
+            Change current working directory.
+        clr()
+            Clear the screen.
+        dir(char *directory)
+            List contents of a directory.
+        echo(char *string)
+            Print a string to stdout.           
+        help()
+            Show manual.
+        pause()
+            Pause shell until the user presses Enter.
+        env()
+            Print environment variables.
+        quit()
+            Exit the shell.
 
-### I/O REDIRECTION
+I/O REDIRECTION
     I/O redirection is is a feature of the shell that allows you to change the input and output of a command.
 
     Input and output redirection can be achieved using special characters <, > or >>.
