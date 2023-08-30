@@ -17,22 +17,22 @@
 ### SHELL COMMANDS
 The following commands are supported by myshell:
 
-`cd(char *directory)`    
-- Change current working directory.
-`clr()`
-- Clear the screen.
-`dir(char *directory)`
-- List contents of a directory.
-`echo(char *string)`
-- Print a string to stdout.           
-`help()`
-- Show manual.
-`pause()`
-- Pause shell until the user presses Enter.
-`env()`
-- Print environment variables.
+Change current working directory
+- `cd(char *directory)`    
+Clear the Screen
+- `clr()`
+List contents of a directory
+- `dir(char *directory)`
+Print a string to stdout       
+- `echo(char *string)`
+Show manual
+- `help()`
+Pause shell until the user presses Enter.
+- `pause()`
+Print environment variables.
+- `env()`
+Exit the shell.
 `quit()`
-- Exit the shell.
 
 ### I/O REDIRECTION
     I/O redirection is is a feature of the shell that allows you to change the input and output of a command.
